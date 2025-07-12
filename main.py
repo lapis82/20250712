@@ -3,4 +3,4 @@ st.title('sj first webapp')
 name=st.text_input ('name:')
 menu=st.selectbox('favourite menu:', ['chocolate', 'lemonade', 'tea'])
 if st.button('welcome'):
-  st.write( 'hello,' +name+ ' your favourite menu is ' +menu+ ' it is fine!')
+  st.write( 'hello, ' +name+ '! your favourite menu is ' +menu+ ' it is fine!')
